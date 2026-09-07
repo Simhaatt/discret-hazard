@@ -1,0 +1,19 @@
+# Intermediate checkpoints written by the sharded runs
+results/*.partial.jsonl
+logs/
+
+# The upstream reproducibility archive and the battery corpus are NOT
+# redistributed here; see README.md "Data".
+repro/
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+~$*
+*.swp

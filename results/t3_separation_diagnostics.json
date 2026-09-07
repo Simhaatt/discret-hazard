@@ -1,0 +1,8 @@
+{
+ "univariate_auc_lag_soh": 0.9849653551742609,
+ "event_lag_soh_min": 0.7953262874970632,
+ "event_lag_soh_max": 0.8670858540868872,
+ "rate_below_0p8214": 0.32611464968152865,
+ "rate_above_0p8214": 0.0029835586872341774,
+ "row_event_rate": 0.0183214415286008
+}

@@ -1,0 +1,20 @@
+{
+ "seed": 20260823,
+ "alpha": 0.03162277660168379,
+ "n_bootstrap": 1000,
+ "links": [
+  "cloglog",
+  "logit",
+  "probit"
+ ],
+ "landmarks": [
+  150,
+  200,
+  300
+ ],
+ "horizons": [
+  500,
+  800,
+  1000
+ ]
+}

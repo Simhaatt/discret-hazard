@@ -1,0 +1,40 @@
+{
+ "law": "project",
+ "cells_rerun": 43,
+ "replicates": 500,
+ "fresh_seed_comparisons": 172,
+ "fresh_seed_sign_unchanged": 165,
+ "fresh_seed_sign_unchanged_share": 0.9593023255813954,
+ "per_comparison": [
+  {
+   "comparison": "LL(B) - LL(A)",
+   "cells": 43,
+   "sign_unchanged": 42,
+   "share": 0.9767441860465116,
+   "max_abs_change": 0.03126594953553813
+  },
+  {
+   "comparison": "LL(E) - LL(A)",
+   "cells": 43,
+   "sign_unchanged": 43,
+   "share": 1.0,
+   "max_abs_change": 0.009047678714357743
+  },
+  {
+   "comparison": "LL(C) - LL(A)",
+   "cells": 43,
+   "sign_unchanged": 39,
+   "share": 0.9069767441860465,
+   "max_abs_change": 0.01818715154953604
+  },
+  {
+   "comparison": "LL(D) - LL(C)",
+   "cells": 43,
+   "sign_unchanged": 41,
+   "share": 0.9534883720930233,
+   "max_abs_change": 0.006132965943242474
+  }
+ ],
+ "median_mcse_per_cell_original": 0.0007254741354381007,
+ "median_mcse_per_cell_rerun": 0.0006910717034724908
+}

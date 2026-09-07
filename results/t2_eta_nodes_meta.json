@@ -1,0 +1,20 @@
+{
+ "seed": 20260823,
+ "width": 25,
+ "intervals": 40,
+ "event_rate": 0.02,
+ "censoring": 0.2,
+ "n_source": 1500,
+ "n_target": 20000,
+ "landmark_j": 6,
+ "horizon_j": 32,
+ "alpha": 0.03162277660168379,
+ "n_nodes": 2000,
+ "eta_units": 19489,
+ "eta_mean": -0.7577995776808953,
+ "eta_sd": 0.6254533882159319,
+ "skew": -1.884379289612727,
+ "excess_kurtosis": 4.030050649731194,
+ "source_fit_converged": true,
+ "beta_health": 0.264818222417622
+}

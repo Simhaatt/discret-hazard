@@ -1,0 +1,1083 @@
+{
+ "table4_matr": [
+  {
+   "model": "wiener",
+   "landmark_cycle": 150,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.2807272833197634,
+   "log_loss": 0.980454919631564,
+   "auc": 0.6126373626373627,
+   "mean_pred": 0.0881372486930338,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 150,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.2385184597624819,
+   "log_loss": 0.67158993986902,
+   "auc": 0.6426592797783934,
+   "mean_pred": 0.4657030008952069,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 150,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.2392079260317639,
+   "log_loss": 0.7018344347413483,
+   "auc": 0.4545454545454545,
+   "mean_pred": 0.677296163262939,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 200,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.2904887609197827,
+   "log_loss": 1.3170100470982382,
+   "auc": 0.728021978021978,
+   "mean_pred": 0.0466983340689246,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 200,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.240480922787735,
+   "log_loss": 0.665057607033685,
+   "auc": 0.7423822714681441,
+   "mean_pred": 0.3522697173103001,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 200,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.2371247851852569,
+   "log_loss": 0.6761499532006224,
+   "auc": 0.5590909090909091,
+   "mean_pred": 0.5918316017641158,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 300,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.2946231917698247,
+   "log_loss": 2.324954913488529,
+   "auc": 0.8379120879120879,
+   "mean_pred": 0.0222359860771,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 300,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.260062916189473,
+   "log_loss": 0.7293633200586269,
+   "auc": 0.8614958448753463,
+   "mean_pred": 0.2174811898959801,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 300,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.2335919182650634,
+   "log_loss": 0.6628356876923195,
+   "auc": 0.7,
+   "mean_pred": 0.4822580226522601,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 150,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.2872302590138162,
+   "log_loss": 1.0791464103593744,
+   "auc": 0.6126373626373627,
+   "mean_pred": 0.0780450131981119,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 150,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.2967478794533855,
+   "log_loss": 0.8090830718348029,
+   "auc": 0.6426592797783934,
+   "mean_pred": 0.2945850003172528,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 150,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.3160323919782624,
+   "log_loss": 0.927471134198098,
+   "auc": 0.4545454545454545,
+   "mean_pred": 0.5171578359691753,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 200,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.2923797314707845,
+   "log_loss": 1.4245124234996849,
+   "auc": 0.728021978021978,
+   "mean_pred": 0.0432267451590068,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 200,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.3350814712449054,
+   "log_loss": 0.9736825216754726,
+   "auc": 0.7423822714681441,
+   "mean_pred": 0.1843945133268432,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 200,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.3534647631617345,
+   "log_loss": 1.06682158732461,
+   "auc": 0.5590909090909091,
+   "mean_pred": 0.3870734957849724,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 300,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.2706177410617092,
+   "log_loss": 1.9499379928127736,
+   "auc": 0.8489010989010989,
+   "mean_pred": 0.0462848229258393,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 300,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.3473938884158524,
+   "log_loss": 1.2982719223934944,
+   "auc": 0.8642659279778393,
+   "mean_pred": 0.1263430873203094,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 300,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.3642497913275608,
+   "log_loss": 1.4271478160642077,
+   "auc": 0.7045454545454546,
+   "mean_pred": 0.2926695119761358,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 150,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.0673427758743029,
+   "log_loss": 0.2177154467054284,
+   "auc": 0.9697802197802198,
+   "mean_pred": 0.2191713487581524,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 150,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.0757918560564281,
+   "log_loss": 0.2213438035272823,
+   "auc": 0.9833795013850416,
+   "mean_pred": 0.5400543737589352,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 150,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.0981897522946729,
+   "log_loss": 0.345153106915787,
+   "auc": 0.9181818181818182,
+   "mean_pred": 0.7319681495168688,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 200,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.0583387962944067,
+   "log_loss": 0.1955091388583582,
+   "auc": 0.989010989010989,
+   "mean_pred": 0.228410400840819,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 200,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.0863065140346052,
+   "log_loss": 0.2483864865956669,
+   "auc": 0.9695290858725762,
+   "mean_pred": 0.5343260296514051,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 200,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.0997232661827107,
+   "log_loss": 0.63642552814686,
+   "auc": 0.9136363636363636,
+   "mean_pred": 0.7450318871319905,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 300,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.0468304186826947,
+   "log_loss": 0.5845300311627237,
+   "auc": 0.9601648351648352,
+   "mean_pred": 0.2533688574168491,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 300,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.0691065622859447,
+   "log_loss": 0.2861611035498375,
+   "auc": 0.9806094182825486,
+   "mean_pred": 0.568528081971048,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 300,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.0842793904075986,
+   "log_loss": 0.790756673662075,
+   "auc": 0.9204545454545454,
+   "mean_pred": 0.7371884527055853,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "random forest",
+   "landmark_cycle": 150,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.0497473521521347,
+   "log_loss": 0.1902182272156499,
+   "auc": 0.9697802197802198,
+   "mean_pred": 0.2989061543964117,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "random forest",
+   "landmark_cycle": 150,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.0704674346984498,
+   "log_loss": 0.2355296719247842,
+   "auc": 0.9806094182825484,
+   "mean_pred": 0.5184117927534512,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "random forest",
+   "landmark_cycle": 150,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.0766556041379828,
+   "log_loss": 0.2506701181752248,
+   "auc": 0.9545454545454546,
+   "mean_pred": 0.6705144162359845,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "random forest",
+   "landmark_cycle": 200,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.0421717026067257,
+   "log_loss": 0.1533676728881329,
+   "auc": 0.978021978021978,
+   "mean_pred": 0.2865328429221324,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "random forest",
+   "landmark_cycle": 200,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.0602475817584634,
+   "log_loss": 0.2061765345394254,
+   "auc": 0.9861495844875346,
+   "mean_pred": 0.5065512125918189,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "random forest",
+   "landmark_cycle": 200,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.0718448597116224,
+   "log_loss": 0.227723594130513,
+   "auc": 0.959090909090909,
+   "mean_pred": 0.6830087532651454,
+   "observed_rate": 0.6875
+  },
+  {
+   "model": "random forest",
+   "landmark_cycle": 300,
+   "horizon_cycle": 500,
+   "n_evaluated": 41,
+   "n_events": 13,
+   "brier": 0.0393287924121201,
+   "log_loss": 0.1275847758745967,
+   "auc": 0.989010989010989,
+   "mean_pred": 0.2869243826782586,
+   "observed_rate": 0.3170731707317073
+  },
+  {
+   "model": "random forest",
+   "landmark_cycle": 300,
+   "horizon_cycle": 800,
+   "n_evaluated": 38,
+   "n_events": 19,
+   "brier": 0.057190198629452,
+   "log_loss": 0.1953052140822147,
+   "auc": 0.9833795013850416,
+   "mean_pred": 0.5515091411186204,
+   "observed_rate": 0.5
+  },
+  {
+   "model": "random forest",
+   "landmark_cycle": 300,
+   "horizon_cycle": 1000,
+   "n_evaluated": 32,
+   "n_events": 22,
+   "brier": 0.0743698573099742,
+   "log_loss": 0.2321803395634904,
+   "auc": 0.9590909090909092,
+   "mean_pred": 0.7069303133163606,
+   "observed_rate": 0.6875
+  }
+ ],
+ "table4_matr_means": [
+  {
+   "model": "wiener",
+   "brier": 0.257203,
+   "log_loss": 0.969917,
+   "auc": 0.682083,
+   "mean_pred": 0.327101,
+   "observed_rate": 0.501524
+  },
+  {
+   "model": "gamma",
+   "brier": 0.318133,
+   "log_loss": 1.217342,
+   "auc": 0.684117,
+   "mean_pred": 0.218864,
+   "observed_rate": 0.501524
+  },
+  {
+   "model": "cloglog hazard model",
+   "brier": 0.076212,
+   "log_loss": 0.391776,
+   "auc": 0.956083,
+   "mean_pred": 0.50645,
+   "observed_rate": 0.501524
+  },
+  {
+   "model": "random forest",
+   "brier": 0.060225,
+   "log_loss": 0.202084,
+   "auc": 0.973298,
+   "mean_pred": 0.501032,
+   "observed_rate": 0.501524
+  }
+ ],
+ "matr_sensitivity_mean_brier": {
+  "('full', 'fair', 'cycle')": {
+   "cloglog hazard model": 0.076212,
+   "gamma": 0.318133,
+   "random forest": 0.060225,
+   "wiener": 0.257203
+  },
+  "('full', 'fair', 'normalised')": {
+   "cloglog hazard model": 0.076212,
+   "gamma": 0.318133,
+   "random forest": 0.060225,
+   "wiener": 0.257203
+  },
+  "('full', 'fair', 'power')": {
+   "cloglog hazard model": 0.076212,
+   "gamma": 0.243881,
+   "random forest": 0.060225,
+   "wiener": 0.239149
+  },
+  "('full', 'published', 'cycle')": {
+   "cloglog hazard model": 0.075176,
+   "gamma": 0.31798,
+   "random forest": 0.060402,
+   "wiener": 0.257562
+  },
+  "('full', 'published', 'normalised')": {
+   "cloglog hazard model": 0.075176,
+   "gamma": 0.31798,
+   "random forest": 0.060402,
+   "wiener": 0.257562
+  },
+  "('truncH', 'fair', 'cycle')": {
+   "cloglog hazard model": 0.076212,
+   "gamma": 0.347107,
+   "random forest": 0.060225,
+   "wiener": 0.26564
+  },
+  "('truncH', 'fair', 'normalised')": {
+   "cloglog hazard model": 0.076212,
+   "gamma": 0.347107,
+   "random forest": 0.060225,
+   "wiener": 0.30874
+  },
+  "('truncH', 'published', 'cycle')": {
+   "cloglog hazard model": 0.075176,
+   "gamma": 0.347046,
+   "random forest": 0.060402,
+   "wiener": 0.2655
+  },
+  "('truncH', 'published', 'normalised')": {
+   "cloglog hazard model": 0.075176,
+   "gamma": 0.347046,
+   "random forest": 0.060402,
+   "wiener": 0.2655
+  }
+ },
+ "matr_timescale_invariance_max_brier_diff": 8.436269072209512e-09,
+ "sixsource_means": {
+  "('auc', 'full', 'cycle')": {
+   "cloglog cumulative-risk (artefact-affected)": 0.579143,
+   "cloglog hazard model": 0.913122,
+   "gamma": 0.86108,
+   "wiener": 0.736085
+  },
+  "('auc', 'full', 'normalised')": {
+   "cloglog cumulative-risk (artefact-affected)": 0.574927,
+   "cloglog hazard model": 0.914962,
+   "gamma": 0.5,
+   "wiener": 0.489665
+  },
+  "('auc', 'truncH', 'cycle')": {
+   "cloglog cumulative-risk (artefact-affected)": 0.576492,
+   "cloglog hazard model": 0.911374,
+   "gamma": 0.853122,
+   "wiener": 0.847265
+  },
+  "('auc', 'truncH', 'normalised')": {
+   "cloglog cumulative-risk (artefact-affected)": 0.574927,
+   "cloglog hazard model": 0.914962,
+   "gamma": 0.5,
+   "wiener": 0.489665
+  },
+  "('brier', 'full', 'cycle')": {
+   "cloglog cumulative-risk (artefact-affected)": 0.255167,
+   "cloglog hazard model": 0.09942,
+   "gamma": 0.163631,
+   "wiener": 0.25674
+  },
+  "('brier', 'full', 'normalised')": {
+   "cloglog cumulative-risk (artefact-affected)": 0.253006,
+   "cloglog hazard model": 0.098371,
+   "gamma": 0.603283,
+   "wiener": 0.603279
+  },
+  "('brier', 'truncH', 'cycle')": {
+   "cloglog cumulative-risk (artefact-affected)": 0.258183,
+   "cloglog hazard model": 0.100816,
+   "gamma": 0.170438,
+   "wiener": 0.205269
+  },
+  "('brier', 'truncH', 'normalised')": {
+   "cloglog cumulative-risk (artefact-affected)": 0.253006,
+   "cloglog hazard model": 0.098371,
+   "gamma": 0.603283,
+   "wiener": 0.603279
+  }
+ },
+ "sixsource_detail_cycle_full": [
+  {
+   "model": "wiener",
+   "landmark_cycle": 150,
+   "horizon_cycle": 500,
+   "n_evaluated": 422,
+   "n_events": 116,
+   "brier": 0.275649971796367,
+   "log_loss": 1.8252052490698407,
+   "auc": 0.6646664412891593,
+   "mean_pred": 0.4518699621569343,
+   "observed_rate": 0.2748815165876777
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 150,
+   "horizon_cycle": 500,
+   "n_evaluated": 422,
+   "n_events": 116,
+   "brier": 0.2087124038966397,
+   "log_loss": 1.5465914832211578,
+   "auc": 0.7913286004056795,
+   "mean_pred": 0.2667507833436407,
+   "observed_rate": 0.2748815165876777
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 150,
+   "horizon_cycle": 500,
+   "n_evaluated": 422,
+   "n_events": 116,
+   "brier": 0.1381496033491461,
+   "log_loss": 0.4141805272004425,
+   "auc": 0.8275298625197205,
+   "mean_pred": 0.2772740858977246,
+   "observed_rate": 0.2748815165876777
+  },
+  {
+   "model": "cloglog cumulative-risk (artefact-affected)",
+   "landmark_cycle": 150,
+   "horizon_cycle": 500,
+   "n_evaluated": 422,
+   "n_events": 116,
+   "brier": 0.2038748710018799,
+   "log_loss": 0.6230094671757171,
+   "auc": 0.6351138156411991,
+   "mean_pred": 0.1936862940724416,
+   "observed_rate": 0.2748815165876777
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 150,
+   "horizon_cycle": 800,
+   "n_evaluated": 381,
+   "n_events": 178,
+   "brier": 0.2739029660496805,
+   "log_loss": 1.668094493197785,
+   "auc": 0.7048209442630212,
+   "mean_pred": 0.6321351659702797,
+   "observed_rate": 0.4671916010498688
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 150,
+   "horizon_cycle": 800,
+   "n_evaluated": 381,
+   "n_events": 178,
+   "brier": 0.1649873094782911,
+   "log_loss": 1.7567381394994592,
+   "auc": 0.8544722422095533,
+   "mean_pred": 0.3662356356428318,
+   "observed_rate": 0.4671916010498688
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 150,
+   "horizon_cycle": 800,
+   "n_evaluated": 381,
+   "n_events": 178,
+   "brier": 0.123501597933528,
+   "log_loss": 0.4143687966896419,
+   "auc": 0.9029445951181712,
+   "mean_pred": 0.4648901167413576,
+   "observed_rate": 0.4671916010498688
+  },
+  {
+   "model": "cloglog cumulative-risk (artefact-affected)",
+   "landmark_cycle": 150,
+   "horizon_cycle": 800,
+   "n_evaluated": 381,
+   "n_events": 178,
+   "brier": 0.2813984593936368,
+   "log_loss": 0.808907119028037,
+   "auc": 0.5545746388443018,
+   "mean_pred": 0.2726149906472762,
+   "observed_rate": 0.4671916010498688
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 150,
+   "horizon_cycle": 1000,
+   "n_evaluated": 346,
+   "n_events": 198,
+   "brier": 0.2588160945705644,
+   "log_loss": 1.4660078313604608,
+   "auc": 0.7267608517608517,
+   "mean_pred": 0.718829616245398,
+   "observed_rate": 0.5722543352601156
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 150,
+   "horizon_cycle": 1000,
+   "n_evaluated": 346,
+   "n_events": 198,
+   "brier": 0.1490320829115723,
+   "log_loss": 1.634411932801053,
+   "auc": 0.871962871962872,
+   "mean_pred": 0.4475086059443057,
+   "observed_rate": 0.5722543352601156
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 150,
+   "horizon_cycle": 1000,
+   "n_evaluated": 346,
+   "n_events": 198,
+   "brier": 0.0928854984731236,
+   "log_loss": 0.3863567992889788,
+   "auc": 0.9372440622440622,
+   "mean_pred": 0.5685379897102341,
+   "observed_rate": 0.5722543352601156
+  },
+  {
+   "model": "cloglog cumulative-risk (artefact-affected)",
+   "landmark_cycle": 150,
+   "horizon_cycle": 1000,
+   "n_evaluated": 346,
+   "n_events": 198,
+   "brier": 0.3221636221949357,
+   "log_loss": 0.9105711950480126,
+   "auc": 0.4878856128856129,
+   "mean_pred": 0.3171021039871322,
+   "observed_rate": 0.5722543352601156
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 200,
+   "horizon_cycle": 500,
+   "n_evaluated": 405,
+   "n_events": 98,
+   "brier": 0.2650519155011318,
+   "log_loss": 1.6989193336872597,
+   "auc": 0.6939440271222495,
+   "mean_pred": 0.4254158260786438,
+   "observed_rate": 0.2419753086419753
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 200,
+   "horizon_cycle": 500,
+   "n_evaluated": 405,
+   "n_events": 98,
+   "brier": 0.1859150012447241,
+   "log_loss": 1.5579770323263051,
+   "auc": 0.7887721863989896,
+   "mean_pred": 0.2132951805651825,
+   "observed_rate": 0.2419753086419753
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 200,
+   "horizon_cycle": 500,
+   "n_evaluated": 405,
+   "n_events": 98,
+   "brier": 0.1298522347979238,
+   "log_loss": 0.3856772539545156,
+   "auc": 0.8418865917702585,
+   "mean_pred": 0.2420586579664955,
+   "observed_rate": 0.2419753086419753
+  },
+  {
+   "model": "cloglog cumulative-risk (artefact-affected)",
+   "landmark_cycle": 200,
+   "horizon_cycle": 500,
+   "n_evaluated": 405,
+   "n_events": 98,
+   "brier": 0.1716534777834182,
+   "log_loss": 0.5172914061782434,
+   "auc": 0.7378514923884864,
+   "mean_pred": 0.1732179977289034,
+   "observed_rate": 0.2419753086419753
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 200,
+   "horizon_cycle": 800,
+   "n_evaluated": 365,
+   "n_events": 156,
+   "brier": 0.2594485643539062,
+   "log_loss": 1.6111878247858629,
+   "auc": 0.7416574653416759,
+   "mean_pred": 0.6245399184466253,
+   "observed_rate": 0.4273972602739726
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 200,
+   "horizon_cycle": 800,
+   "n_evaluated": 365,
+   "n_events": 156,
+   "brier": 0.1678630969029599,
+   "log_loss": 1.8173427867883412,
+   "auc": 0.8668261562998405,
+   "mean_pred": 0.3155973842536093,
+   "observed_rate": 0.4273972602739726
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 200,
+   "horizon_cycle": 800,
+   "n_evaluated": 365,
+   "n_events": 156,
+   "brier": 0.1127637586332433,
+   "log_loss": 0.3936764940333419,
+   "auc": 0.9270488283646178,
+   "mean_pred": 0.4266198692880249,
+   "observed_rate": 0.4273972602739726
+  },
+  {
+   "model": "cloglog cumulative-risk (artefact-affected)",
+   "landmark_cycle": 200,
+   "horizon_cycle": 800,
+   "n_evaluated": 365,
+   "n_events": 156,
+   "brier": 0.2609830112931284,
+   "log_loss": 0.7458130636371918,
+   "auc": 0.5930560667402772,
+   "mean_pred": 0.2586918388285056,
+   "observed_rate": 0.4273972602739726
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 200,
+   "horizon_cycle": 1000,
+   "n_evaluated": 330,
+   "n_events": 176,
+   "brier": 0.2484790942146047,
+   "log_loss": 1.4515110685694967,
+   "auc": 0.7646472845336482,
+   "mean_pred": 0.7210040280077555,
+   "observed_rate": 0.5333333333333333
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 200,
+   "horizon_cycle": 1000,
+   "n_evaluated": 330,
+   "n_events": 176,
+   "brier": 0.1581248926178642,
+   "log_loss": 1.674220053982396,
+   "auc": 0.8863820838252656,
+   "mean_pred": 0.3917042565322067,
+   "observed_rate": 0.5333333333333333
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 200,
+   "horizon_cycle": 1000,
+   "n_evaluated": 330,
+   "n_events": 176,
+   "brier": 0.0782440587737659,
+   "log_loss": 0.345381883576728,
+   "auc": 0.9572941263282172,
+   "mean_pred": 0.5349493550895182,
+   "observed_rate": 0.5333333333333333
+  },
+  {
+   "model": "cloglog cumulative-risk (artefact-affected)",
+   "landmark_cycle": 200,
+   "horizon_cycle": 1000,
+   "n_evaluated": 330,
+   "n_events": 176,
+   "brier": 0.3035716097592453,
+   "log_loss": 0.8517648493203391,
+   "auc": 0.5042429161747344,
+   "mean_pred": 0.3072170950502976,
+   "observed_rate": 0.5333333333333333
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 300,
+   "horizon_cycle": 500,
+   "n_evaluated": 398,
+   "n_events": 87,
+   "brier": 0.2522996422729791,
+   "log_loss": 1.606740258821519,
+   "auc": 0.7395498392282958,
+   "mean_pred": 0.3855548997819583,
+   "observed_rate": 0.2185929648241206
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 300,
+   "horizon_cycle": 500,
+   "n_evaluated": 398,
+   "n_events": 87,
+   "brier": 0.1356098460129475,
+   "log_loss": 1.435386315420703,
+   "auc": 0.824666444912592,
+   "mean_pred": 0.1748991577707951,
+   "observed_rate": 0.2185929648241206
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 300,
+   "horizon_cycle": 500,
+   "n_evaluated": 398,
+   "n_events": 87,
+   "brier": 0.1022493510499075,
+   "log_loss": 0.3479071625381309,
+   "auc": 0.8893816757216247,
+   "mean_pred": 0.2113299394735575,
+   "observed_rate": 0.2185929648241206
+  },
+  {
+   "model": "cloglog cumulative-risk (artefact-affected)",
+   "landmark_cycle": 300,
+   "horizon_cycle": 500,
+   "n_evaluated": 398,
+   "n_events": 87,
+   "brier": 0.1665261614190654,
+   "log_loss": 0.5086115639143196,
+   "auc": 0.7310123073511475,
+   "mean_pred": 0.1312553566370359,
+   "observed_rate": 0.2185929648241206
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 300,
+   "horizon_cycle": 800,
+   "n_evaluated": 358,
+   "n_events": 145,
+   "brier": 0.2403175175072868,
+   "log_loss": 1.561139096452906,
+   "auc": 0.7833899951432733,
+   "mean_pred": 0.6060840464565512,
+   "observed_rate": 0.4050279329608938
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 300,
+   "horizon_cycle": 800,
+   "n_evaluated": 358,
+   "n_events": 145,
+   "brier": 0.1524066897577388,
+   "log_loss": 1.5885477412755733,
+   "auc": 0.91947547353084,
+   "mean_pred": 0.295413805568255,
+   "observed_rate": 0.4050279329608938
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 300,
+   "horizon_cycle": 800,
+   "n_evaluated": 358,
+   "n_events": 145,
+   "brier": 0.0725371017609195,
+   "log_loss": 0.3405416662348809,
+   "auc": 0.9573255625708272,
+   "mean_pred": 0.4036081257609352,
+   "observed_rate": 0.4050279329608938
+  },
+  {
+   "model": "cloglog cumulative-risk (artefact-affected)",
+   "landmark_cycle": 300,
+   "horizon_cycle": 800,
+   "n_evaluated": 358,
+   "n_events": 145,
+   "brier": 0.2692871092808896,
+   "log_loss": 0.7798051493480028,
+   "auc": 0.5254006799417194,
+   "mean_pred": 0.2235551479391525,
+   "observed_rate": 0.4050279329608938
+  },
+  {
+   "model": "wiener",
+   "landmark_cycle": 300,
+   "horizon_cycle": 1000,
+   "n_evaluated": 323,
+   "n_events": 165,
+   "brier": 0.2366949597541174,
+   "log_loss": 1.4335330380714089,
+   "auc": 0.8053317990026851,
+   "mean_pred": 0.7144090797150027,
+   "observed_rate": 0.5108359133126935
+  },
+  {
+   "model": "gamma",
+   "landmark_cycle": 300,
+   "horizon_cycle": 1000,
+   "n_evaluated": 323,
+   "n_events": 165,
+   "brier": 0.1500320102023948,
+   "log_loss": 1.3639040719455842,
+   "auc": 0.9458381281166092,
+   "mean_pred": 0.3695542629624693,
+   "observed_rate": 0.5108359133126935
+  },
+  {
+   "model": "cloglog hazard model",
+   "landmark_cycle": 300,
+   "horizon_cycle": 1000,
+   "n_evaluated": 323,
+   "n_events": 165,
+   "brier": 0.044598635338222,
+   "log_loss": 0.3058058806910275,
+   "auc": 0.977445339470656,
+   "mean_pred": 0.5099832772065137,
+   "observed_rate": 0.5108359133126935
+  },
+  {
+   "model": "cloglog cumulative-risk (artefact-affected)",
+   "landmark_cycle": 300,
+   "horizon_cycle": 1000,
+   "n_evaluated": 323,
+   "n_events": 165,
+   "brier": 0.317042136914226,
+   "log_loss": 0.9023058716398584,
+   "auc": 0.4431530494821634,
+   "mean_pred": 0.2743640922975339,
+   "observed_rate": 0.5108359133126935
+  }
+ ],
+ "wiener_params": [
+  {
+   "corpus": "matr",
+   "window": "full",
+   "mu0": 0.00029713349801359997,
+   "s2mu": 1.8828765442600954e-08,
+   "sig2": 3.0673384330062607e-06,
+   "cycles_to_threshold": 673.6804487415387
+  },
+  {
+   "corpus": "matr",
+   "window": "truncH",
+   "mu0": 0.0002569148738015444,
+   "s2mu": 2.5692696734541717e-08,
+   "sig2": 3.149582029913937e-06,
+   "cycles_to_threshold": 794.775269079532
+  },
+  {
+   "corpus": "sixsource",
+   "window": "full",
+   "mu0": 0.12151833819294748,
+   "s2mu": 4.3170831856403836e-17,
+   "sig2": 16.865744060096574,
+   "cycles_to_threshold": 884.6182705996356
+  },
+  {
+   "corpus": "sixsource",
+   "window": "truncH",
+   "mu0": 0.00021671023654037334,
+   "s2mu": 3.908795247111258e-17,
+   "sig2": 5.946886898677728e-05,
+   "cycles_to_threshold": 924.8926645016737
+  }
+ ],
+ "gamma_params": [
+  {
+   "corpus": "matr",
+   "window": "full",
+   "alpha": 0.040192065949093,
+   "a0": 2.7346703272406705,
+   "b0": 0.015412287421537255,
+   "mean_rate": 0.00022640480873171453,
+   "cycles_to_threshold": 883.4256545350006
+  },
+  {
+   "corpus": "matr",
+   "window": "truncH",
+   "alpha": 0.06161208438143785,
+   "a0": 1.252684424613786,
+   "b0": 0.0027312549515944445,
+   "mean_rate": 0.00011678027873289129,
+   "cycles_to_threshold": 1910.675946866374
+  },
+  {
+   "corpus": "sixsource",
+   "window": "full",
+   "alpha": 0.08394083391309216,
+   "a0": 1.9132482294800257,
+   "b0": 0.004572045298437319,
+   "mean_rate": 0.00020044989024185753,
+   "cycles_to_threshold": 997.8791251185647
+  },
+  {
+   "corpus": "sixsource",
+   "window": "truncH",
+   "alpha": 0.11490412840970965,
+   "a0": 1.2641626755181112,
+   "b0": 0.0017169189267832866,
+   "mean_rate": 0.0001412101328494688,
+   "cycles_to_threshold": 1449.2453464318326
+  }
+ ]
+}
