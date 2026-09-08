@@ -21,17 +21,23 @@ numbers cannot drift apart. **Edit the generator, never the markdown.**
 | `RESULTS.md` | the generated report |
 | `requirements.txt` | exact package versions used |
 
-Figure numbering:
+Figure numbering, main text:
 
-| Manuscript | File in `figs/` | Shows |
+| Figure | File in `figs/` | Shows |
 |---|---|---|
-| Figure 1 | *(not generated here)* | coefficient bias and coverage by link |
-| Figure 2 | `fig_information_spread.png` | `n_eff` against nominal labelled size, recalibration simulation |
-| Figure 3 | `fig_firstpassage.png` | Brier by landmark-horizon setting, first-passage comparison |
-| Figure 4 | `fig_transport_neff.png` | `n_eff` over the transport combinations |
+| Figure 1 | *(schematic, not generated here)* | grouped event-time representation and landmark-conditional fixed-horizon prediction |
+| Figure 2 | `fig_link_grouping.png` | coefficient bias and empirical 95% coverage by link, against interval width |
+| Figure 3 | `fig_information_spread.png` | `n_eff` spans two orders of magnitude at every fixed labelled size |
+| Figure 4 | `fig_firstpassage.png` | Brier by landmark-horizon setting, first-passage against hazard model |
 
-`figs/fig_crossover.png` is generated as well but is not used by the
-manuscript; it is the clearest single view of the S = 2-4 adaptation boundary.
+`figures/fig1.png` ... `fig4.png` are the same images under those numbers.
+
+Two further figures are generated but not used in the main text:
+
+| File | Shows |
+|---|---|
+| `figs/fig_crossover.png` | the S = 2-4 adaptation boundary; candidate supplementary figure |
+| `figs/fig_transport_neff.png` | `n_eff` over the transport combinations, by held-out unit |
 
 ## The four experiments
 
@@ -40,15 +46,16 @@ manuscript; it is the clearest single view of the S = 2-4 adaptation boundary.
 | `calib.py` | shared | penalised complementary log-log recalibration, `n_eff`, CV-with-one-standard-error penalty selection, empirical-Bayes penalty, and the retired staged rule kept only as a comparator |
 | `verify_calib.py` | shared | self-test: unpenalised fit against a `statsmodels` cloglog GLM, penalised fit against an independent optimiser, `n_eff` against the GLM slope standard error |
 | `t1_neff_transport.py` | 1 | replays the published transport splits and records the calibration information actually available in each |
-| `t1_figure.py` | 1 | Figure 4 |
+| `t1_figure.py` | 1 | `fig_transport_neff.png` |
+| `t_link_figure.py` | link study | Figure 2, from the archived Study-A link table |
 | `t2_eta_reservoir.py` | 2 | derives the target `eta` law from the project's own data-generating process |
 | `t2_recal_boundary.py` | 2 | the 225-cell, five-arm recalibration-boundary study |
-| `t2_analyse.py` | 2 | items 2a-2e, Figures 2 and 3 of the report |
+| `t2_analyse.py` | 2 | items 2a-2e, Figure 3 and `fig_crossover.png` |
 | `t2_verify.py` | 2 | seed-stability re-run on a stratified subset |
 | `t3_link_comparison.py` | 3 | cloglog / logit / probit, coefficient and prediction arms |
 | `firstpassage.py` | 4 | Wiener and gamma first-passage models, with a self-test |
 | `t4_first_passage.py` | 4 | the like-for-like comparison against the hazard model |
-| `t4_analyse.py` | 4 | Table 4 and Figure 3 of the report |
+| `t4_analyse.py` | 4 | Table 4 and Figure 4 |
 | `build_results.py` | all | assembles `RESULTS.md` |
 
 ## Data

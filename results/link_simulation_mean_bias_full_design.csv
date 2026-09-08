@@ -1,0 +1,4 @@
+link,mean_bias_full_design,design_cells
+cloglog,0.001249,54
+logit,0.083167,54
+probit,-0.22946,54
