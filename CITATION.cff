@@ -20,6 +20,13 @@ authors:
       Applied Statistics Unit, Indian Statistical Institute, Chennai,
       Tamil Nadu, India
 repository-code: "https://github.com/Simhaatt/discret-hazard"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22664400
+    description: Version 1.0.0 archived at Zenodo
+  - type: doi
+    value: 10.5281/zenodo.22664399
+    description: Concept DOI, always resolves to the latest version
 abstract: >-
   Analysis code, generated results and figures for four experiments on the
   validity boundaries of grouped discrete-time hazard models for degradation

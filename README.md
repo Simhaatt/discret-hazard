@@ -1,5 +1,7 @@
 # Validity boundaries of discrete-time hazard models for lithium-ion battery reliability
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22664399.svg)](https://doi.org/10.5281/zenodo.22664399)
+
 Reproducibility code and results for the four experiments reported in the
 manuscript *Validity Boundaries of Discrete-Time Hazard Models for Lithium-Ion
 Battery Reliability* (submitted to *Quality and Reliability Engineering
@@ -174,7 +176,14 @@ and a conventional code licence can be added alongside for `scripts/`.
 
 ## Citing
 
-Please cite the archived release rather than the repository URL, so the version
-you used is unambiguous. `CITATION.cff` carries the machine-readable metadata
-and GitHub renders a "Cite this repository" button from it. Once the article
-appears, cite both it and the software record.
+This code is archived at Zenodo. Cite the archived release rather than the
+repository URL, so the version used is unambiguous.
+
+| DOI | Resolves to |
+|---|---|
+| [10.5281/zenodo.22664400](https://doi.org/10.5281/zenodo.22664400) | version 1.0.0 exactly -- **use this in a paper** |
+| [10.5281/zenodo.22664399](https://doi.org/10.5281/zenodo.22664399) | the concept DOI; always the latest version |
+
+`CITATION.cff` carries the machine-readable metadata and GitHub renders a
+"Cite this repository" button from it. Once the article appears, cite both it
+and this software record.
