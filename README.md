@@ -160,3 +160,21 @@ Read section 5 of `RESULTS.md` before using any number. It records what was
 attempted and rejected, including two numerical defects that had each reversed
 a conclusion until the fitted parameters were checked for physical
 plausibility.
+
+## Licence
+
+Creative Commons Attribution 4.0 International (CC-BY-4.0), full text in
+`LICENSE`. You may share and adapt this material, including commercially,
+provided you give appropriate credit and indicate any changes.
+
+Note that CC-BY is a content licence rather than a software licence: it does
+not address patent grant or warranty disclaimer the way MIT, BSD or Apache-2.0
+do. If a reuser needs those terms for the scripts specifically, open an issue
+and a conventional code licence can be added alongside for `scripts/`.
+
+## Citing
+
+Please cite the archived release rather than the repository URL, so the version
+you used is unambiguous. `CITATION.cff` carries the machine-readable metadata
+and GitHub renders a "Cite this repository" button from it. Once the article
+appears, cite both it and the software record.

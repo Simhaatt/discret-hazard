@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+title: >-
+  Reproducibility code for "Validity Boundaries of Discrete-Time Hazard Models
+  for Lithium-Ion Battery Reliability"
+message: >-
+  If you use this software or its results, please cite both the software (this
+  record) and the associated article once it appears.
+type: software
+authors:
+  - given-names: Simhaa T. T.
+    family-names: ""
+    orcid: "https://orcid.org/0009-0006-9041-1103"
+    email: simhaa2310510@ssn.edu.in
+    affiliation: >-
+      Department of Electrical and Electronics Engineering, Sri Sivasubramaniya
+      Nadar College of Engineering, Chennai, Tamil Nadu, India
+  - given-names: Sudheesh Kumar
+    family-names: Kattumannil
+    affiliation: >-
+      Applied Statistics Unit, Indian Statistical Institute, Chennai,
+      Tamil Nadu, India
+repository-code: "https://github.com/Simhaatt/discret-hazard"
+abstract: >-
+  Analysis code, generated results and figures for four experiments on the
+  validity boundaries of grouped discrete-time hazard models for degradation
+  data. (1) Effective calibration information for every cross-domain transport
+  split, showing that labelled target count does not determine the information
+  available to estimate a calibration slope. (2) A 225-cell recalibration
+  boundary study varying event prevalence and prediction spread independently
+  of labelled sample size. (3) A complementary log-log, logit and probit link
+  comparison on a 493-cell lithium-ion corpus. (4) Wiener and gamma
+  first-passage degradation baselines compared like-for-like against the
+  discrete-time hazard model.
+keywords:
+  - reliability
+  - discrete-time hazard model
+  - degradation modelling
+  - lithium-ion battery
+  - calibration
+  - transportability
+  - first-passage time
+  - complementary log-log
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "2026-09-08"

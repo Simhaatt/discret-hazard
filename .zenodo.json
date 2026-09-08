@@ -1,0 +1,38 @@
+{
+  "title": "Reproducibility code for \"Validity Boundaries of Discrete-Time Hazard Models for Lithium-Ion Battery Reliability\"",
+  "upload_type": "software",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Simhaa T. T.",
+      "orcid": "0009-0006-9041-1103",
+      "affiliation": "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering, Chennai, Tamil Nadu, India"
+    },
+    {
+      "name": "Kattumannil, Sudheesh Kumar",
+      "affiliation": "Applied Statistics Unit, Indian Statistical Institute, Chennai, Tamil Nadu, India"
+    }
+  ],
+  "description": "<p>Analysis code, generated results and figures for the four experiments reported in <em>Validity Boundaries of Discrete-Time Hazard Models for Lithium-Ion Battery Reliability</em>.</p><ul><li><strong>Effective calibration information for transport splits.</strong> Replays the published leave-one-chemistry-out and leave-one-source-out splits and reports the calibration information actually available in each. 83 of 90 split-by-setting combinations fall below n_eff = 4. The number of labelled target cells correlates with the available information at only rho = +0.47, against +0.90 for the spread of the source predictions.</li><li><strong>Recalibration boundary study.</strong> 225 design cells at 500 replicates, with event prevalence and prediction spread varied independently of labelled sample size. Held-out log loss and Brier are computed exactly under the target law, so the only Monte Carlo variation is in the sampling of the calibration set.</li><li><strong>Link comparison on a 493-cell lithium-ion corpus.</strong> Complementary log-log, logit and probit fits with nothing else changed, plus a penalty sweep and separation diagnostics.</li><li><strong>First-passage degradation baselines.</strong> A Wiener process with random drift and a gamma process with random rate, both with landmark-conditional first passage to a persistent 80% state-of-health threshold, compared like-for-like against the discrete-time hazard model and a random-forest comparator.</li></ul><p><code>RESULTS.md</code> is the generated report; it is produced from the files in <code>results/</code> so the prose and the numbers cannot drift apart. Section 5 records everything that failed or was rejected, including two numerical defects that had each reversed a conclusion until the fitted parameters were checked for physical plausibility.</p><p>The battery corpus itself is not redistributed; see the README. The recalibration boundary study is self-contained simulation and runs from a clean checkout with no data.</p>",
+  "keywords": [
+    "reliability",
+    "discrete-time hazard model",
+    "degradation modelling",
+    "lithium-ion battery",
+    "calibration",
+    "transportability",
+    "first-passage time",
+    "complementary log-log",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Simhaatt/discret-hazard",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
