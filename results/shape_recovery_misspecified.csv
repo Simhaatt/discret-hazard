@@ -1,0 +1,4 @@
+true_shape,method,imse,design_cells
+mildly_nonmonotone,unconstrained,0.589004,36
+mildly_nonmonotone,monotone,0.68702,36
+mildly_nonmonotone,linear,0.900015,36

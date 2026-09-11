@@ -1,0 +1,7 @@
+mechanism,method,brier_bias,log_loss_bias,auc_bias,factorial_cells
+covariate_dependent,complete_case,-0.008144,-0.019413,-0.012581,9
+covariate_dependent,ipcw,-6.3e-05,-0.000135,-0.000299,9
+independent,complete_case,1.6e-05,3.1e-05,-1e-05,9
+independent,ipcw,1.9e-05,3.7e-05,5.2e-05,9
+time_dependent,complete_case,-0.025153,-0.060642,-8.6e-05,9
+time_dependent,ipcw,-0.020613,-0.049525,0.003154,9

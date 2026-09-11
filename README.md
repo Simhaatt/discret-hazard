@@ -22,6 +22,7 @@ numbers cannot drift apart. **Edit the generator, never the markdown.**
 | `figures/` | the same figures under the manuscript's numbering |
 | `RESULTS.md` | the generated report |
 | `requirements.txt` | exact package versions used |
+| `MANIFEST.md` | which file backs each numbered table and figure of the paper |
 
 Figure numbering, main text:
 

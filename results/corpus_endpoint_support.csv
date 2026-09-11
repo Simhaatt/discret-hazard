@@ -1,0 +1,8 @@
+dataset,cells,source_label_events,harmonized_events,censored,person_period_rows
+BatteryLife SNL,61,52,34,27,3244
+CALB,27,6,6,21,1475
+HUST,77,77,77,0,4910
+MATR,139,83,43,96,4056
+SDU,70,70,70,0,1365
+Tongji,119,73,73,46,1488
+TOTAL,493,361,303,190,16538

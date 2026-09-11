@@ -1,0 +1,4 @@
+method,imse,risk_mae,increasing_fit_frequency,design_cells
+unconstrained,0.44363,0.116108,0.0,36
+monotone,0.527347,0.130966,0.0,36
+linear,0.722741,0.142019,0.0,36
