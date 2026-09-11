@@ -22,6 +22,9 @@ authors:
 repository-code: "https://github.com/Simhaatt/discret-hazard"
 identifiers:
   - type: doi
+    value: 10.5281/zenodo.22708620
+    description: Version 1.1.0 archived at Zenodo, the current release
+  - type: doi
     value: 10.5281/zenodo.22664400
     description: Version 1.0.0 archived at Zenodo
   - type: doi

@@ -182,8 +182,9 @@ repository URL, so the version used is unambiguous.
 
 | DOI | Resolves to |
 |---|---|
-| [10.5281/zenodo.22664400](https://doi.org/10.5281/zenodo.22664400) | version 1.0.0 exactly -- **use this in a paper** |
-| [10.5281/zenodo.22664399](https://doi.org/10.5281/zenodo.22664399) | the concept DOI; always the latest version |
+| [10.5281/zenodo.22708620](https://doi.org/10.5281/zenodo.22708620) | version 1.1.0, the current release -- **use this in a paper** |
+| [10.5281/zenodo.22664400](https://doi.org/10.5281/zenodo.22664400) | version 1.0.0 |
+| [10.5281/zenodo.22664399](https://doi.org/10.5281/zenodo.22664399) | the concept DOI; always resolves to the latest version |
 
 `CITATION.cff` carries the machine-readable metadata and GitHub renders a
 "Cite this repository" button from it. Once the article appears, cite both it
